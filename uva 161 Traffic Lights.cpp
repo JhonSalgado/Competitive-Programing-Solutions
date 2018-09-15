@@ -5,18 +5,18 @@ using namespace std;
 
 int main() {
 	int cycle;
-  int min;
+	int min;
 	while(true){
 		scanf("%d", &cycle);
-    if(cycle==0)break;
-    min=91;
+		if(cycle==0)break;
+    		min=91;
 		vector<int> cycles;
 		vector<int> timers;
 		vector<char> lights;
-    cycles.push_back(cycle);
-    if(cycle<min)min=cycle;
+		cycles.push_back(cycle);
+		if(cycle<min)min=cycle;
 		while(scanf("%d", &cycle) && cycle!=0){
-      if(cycle<min)min=cycle;
+      		if(cycle<min)min=cycle;
 			cycles.push_back(cycle);
 		}
 		int len=cycles.size();
