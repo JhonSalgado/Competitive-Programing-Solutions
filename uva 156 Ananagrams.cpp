@@ -22,6 +22,10 @@ int main() {
     sort(v.begin(), v.end());
     sortDicc.push_back(v);
   }
+  vector<char> basurita;
+  basurita.push_back('1');
+  sortDicc.push_back(basurita);
+  dicc.push_back(basurita);
   vector<vector<char>> ans;
   int len=dicc.size();
   for(int i=0; i<len; i++){
