@@ -1,4 +1,6 @@
+*.gitignore
 *.txt
 *.pdf
 *.exe
 *.ini
+uva 10264 The Most Potent Corner.cpp
