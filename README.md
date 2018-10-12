@@ -1,2 +1,2 @@
 # UVa-solutions
-Some UVa problem solutions in C++11.
+Some online judge problem solutions, solved in c++11
